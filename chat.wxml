@@ -1,0 +1,41 @@
+<text class="user-motto">{{motto}}</text>
+
+<view class="jingji">
+ <view class="plan">紧急方案</view>
+ <view class="plan1">！！方案一：</view>
+ <view class="text1">确认无人在休息，可稍用力敲门</view>
+ <input></input>
+ <view class="plan2">！！方案二：</view>
+ <view class="text2">录音功能：可述说你此刻的焦虑或者无奈喜悦</view>
+ <button class="liaten1">倾听小匣子</button> 
+ <button bindtap='start'class="listen">开始录音</button>
+ <button bindtap='stop' class="listen">停止录音</button>
+ <button bindtap='play' class="listen">播放录音</button>  
+ <input></input>
+ <view class="plan3">！！方案三</view>
+ <view class="text3">获取联系方式（前提：情况特殊，私信得不到回应，需要正确回答问题才可）</view>
+</view>
+
+<view class="bg">
+ <image class="bg-image" src="/images/v2-6d120a5261f5dd4e9e42147357337ca9.jpg"></image>
+</view>
+
+<view>
+ <form bindsubmit="formSubmit">
+   <input name="userName" class="input" placeholder="请输入房间主人名字" ></input>
+   <button  form-type="submit" class="sure">确定</button> 
+  </form>
+</view>
+<view class="ly">确定可点击下方获取</view>
+<swiper indicator-dots="{{indicatorDots}}"  
+           autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true" class="swiper">  
+         <block wx:for="{{imgUrls}}">  
+           <swiper-item>  
+              <navigator url="{{item.link}}" hover-class="navigator-hover">  
+               <image src="{{item.url}}" class="slide-image" width="300" height="500"/>  
+              </navigator>  
+           </swiper-item>  
+         </block>  
+ </swiper>
+
+

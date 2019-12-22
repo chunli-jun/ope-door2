@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/logs1/logs1",
+    "pages/logs2/logs2",
+    "pages/logs3/logs3",
+    "pages/condition/condition",
+    "pages/chat/chat",
+    "pages/erweima/erweima"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#add8e6",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#00008b",
+    "borderStyle": "black",
+    "backgroundColor": "#add8e6",
+    "list": [
+      {
+        "iconPath": "images/分组 2(1).png",
+        "selectedIconPath": "images/分组 2.png",
+        "pagePath": "pages/welcome/welcome",
+        "text": "心情调节站"
+      },
+     
+      {
+        "selectedIconPath": "images/分组 12.png",
+        "iconPath": "images/分组 12(1).png",
+        "pagePath": "pages/index/index",
+        "text": "私信"
+      },
+      {
+        "selectedIconPath": "/images/分组 3(2).png",
+        "iconPath": "/images/分组 3(3).png",
+        "pagePath": "pages/chat/chat",
+        "text": "紧急"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

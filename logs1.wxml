@@ -1,0 +1,10 @@
+<view class="section"></view>
+<view class="section">把所有的春光归还给疏疏篱落</view>
+<view class="section">把所有的慵慵沉迷与不前</view>
+<view class="section">归还给过去的我</view>
+<view class="section">明日之我</view>
+<view class="section">胸中有丘壑，立马振山河</view>
+<button class="button-style"  bindtap="listenerButtonPlay">播放</button>
+<button class="button-style"  bindtap="listenerButtonPause">暂停</button>
+<view class="image-size"><image src="../../images/1234.jpg"></image></view>
+

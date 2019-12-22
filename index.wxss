@@ -1,0 +1,33 @@
+.input{
+  margin-top:-50px;
+  height:100px;
+  width:100%;
+  border:1px solid black;
+   font-size: 24px
+}
+.huifu{
+color: black
+}
+.xiaoxi{
+  text-align: center;
+  margin-top:50px;
+  color: black;
+  font-size: 24px
+}
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+background-size:cover;
+z-index:-1;
+}
+.user-motto{
+  margin-top:-50px;
+ font-size: 20px
+}
+.brackground{
+  height: 100vh;
+  width: 80vh;
+}

@@ -1,0 +1,5 @@
+<view class="abc">找了个算命先生给我算一卦，他打量了一下说：“这位兄台，你一定是在凌晨出生的吧。”我十分惊讶：“你怎么算得这么准确？”他捋了捋胡须说：“因为凌晨一点至三点是丑时啊。”</view>
+<view class="image-size"><image src="../../images/456.jpg"></image></view>
+<view class="abc">笑一笑十年少哈哈哈哈哈o(*≧▽≦)ツ┏━┓</view>
+<button class="button-style"  bindtap="listenerButtonPlay">播放</button>
+<button class="button-style"  bindtap="listenerButtonPause">暂停</button>

@@ -1,0 +1,21 @@
+.abc{
+   text-align:center;
+   font-size: 14px;
+   color:rgba(220, 98, 236, 0.726);
+    font-family:cursive;
+}
+.image{
+  display:flex;
+  justify-content:center;
+}
+.image-size image{
+  width:400px;
+  height:400px;
+  background-size:cover;
+z-index:-1;
+}
+.button-style{  
+    background-color:rgba(52, 146, 223, 0.61);  
+    border-radius: 2rpx;  
+    margin: 20rpx;  
+}  

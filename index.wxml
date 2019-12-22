@@ -1,0 +1,23 @@
+<view class="xiaoxi" >主人语ヾ(≧∪≦*)ノ〃</view>
+
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto">{{answer}}</text>
+  </view>
+</view>
+
+<view class="bg" style="opacity:{{0.5}}">
+<image class="brackground" src="../../images/v2-efc64658026c55af589d877f309e5532.jpg"></image>
+</view>
+
+
+<view>
+ <form bindsubmit="formSubmit">
+   <input name="chat2" class="input" placeholder="请在此输入回复信息" ></input>
+   <button  form-type="submit" class="huifu">回复</button> 
+ </form>
+</view>
+
+
+

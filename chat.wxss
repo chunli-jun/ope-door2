@@ -1,0 +1,41 @@
+.plan{
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  size: 50px
+}
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  height:5%;
+  width:5%;
+ background-size:cover;
+z-index:-1;
+}
+.input{
+  margin-top:10px;
+  font-size:20px;
+  height:50px;
+  width:100%;
+  border:1px solid palevioletred}
+  
+.jingji{
+  font-size:20px;
+}
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  height:110%;
+  width:100%;
+background-size:cover;
+z-index:-1;
+}
+.bg image{
+  width:400px;
+  height:100vh;
+}
+.ly{
+   text-align: center;
+}

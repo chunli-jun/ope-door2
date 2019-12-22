@@ -1,0 +1,16 @@
+<view class="image-size"><image class="image" src="../../images/789.jpg"></image></view>
+
+<view class="abc">人生就像一场戏</view>
+<view class="abc">因为有缘才相聚</view>
+<view class="abc">为了小事发脾气</view>
+<view class="abc">回头想想又何必</view>
+<view class="abc">别人生气我不气</view>
+<view class="abc">气出病来无人替</view>
+<view class="abc">我若气死谁如意</view>
+<view class="abc">况且伤神又费力</view>
+<view class="abc">请耐心等待开门哦！不要生气鸭</view>
+<view class="abc">ヾ(@゜∇゜@)ノ</view>
+<view class="abc"></view>
+<button class="button-style"  bindtap="listenerButtonPlay">播放</button>
+<button class="button-style" bindtap="listenerButtonPause">暂停</button>
+
